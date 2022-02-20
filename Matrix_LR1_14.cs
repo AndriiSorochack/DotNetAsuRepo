@@ -9,9 +9,8 @@ namespace Lab1_14
     internal class Matrix_LR1_14
     { 
         private int[,] _matrix;
-        private bool _isMatrixInitialized; //по дефолту false
+        private bool _isMatrixInitialized; 
 
-        // замість private set можещ заюзати init
         public int Size { get; private set; }
 
         public Matrix_LR1_14(int size)
@@ -26,14 +25,12 @@ namespace Lab1_14
 
             for (int i = 0; i < Size; i++)
             {
-                //Ініціалізуються рядки
                 bool isConsoleArrayCoorrect = false;
 
                 while (!isConsoleArrayCoorrect)
                 {
                     string valuesFromConsole = Console.ReadLine();
 
-                    // .Split(" ") також повертає масив
                     string[] separatedValues = valuesFromConsole.Split(" ");
 
                     if (separatedValues.Length != Size)
@@ -44,11 +41,6 @@ namespace Lab1_14
 
                     for (int j = 0; j < Size; j++)
                     {
-                        //Parse - один зі способів взяти значення зі строки
-                        //TryParse поверне false якщо конвертнути значенння не вдалось, а саме значення запишеться в out int integerValue
-                        //за допомогою out ти можеш зробити так, щоб функція повертала багато результатів, не лише через out, а ще через out
-                        //від недавно ти можеш в самому out ініціалізувати зміну, головне вписати там її тип даних
-
                         bool result = int.TryParse(separatedValues[j], out int integerValue);
 
                         if (result == false)
@@ -81,7 +73,6 @@ namespace Lab1_14
             {
                 for (int j = 0; j < Size; j++)
                 {
-                    // це називається string interpolation
                     Console.Write($"{_matrix[i, j]} ");
                 }
 
@@ -138,8 +129,6 @@ namespace Lab1_14
 
             return sum;
         }
-
-        //? для того, щоб інт міг зберігати null - загугли nullable types
         public int? GetSumOfElementsBeloveMainDiagonal()
         {
             if (!_isMatrixInitialized)
