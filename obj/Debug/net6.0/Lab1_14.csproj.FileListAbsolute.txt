@@ -1,0 +1,15 @@
+D:\.NET Lessons OOP\Lab1_14\bin\Debug\net6.0\Lab1_14.exe
+D:\.NET Lessons OOP\Lab1_14\bin\Debug\net6.0\Lab1_14.deps.json
+D:\.NET Lessons OOP\Lab1_14\bin\Debug\net6.0\Lab1_14.runtimeconfig.json
+D:\.NET Lessons OOP\Lab1_14\bin\Debug\net6.0\Lab1_14.dll
+D:\.NET Lessons OOP\Lab1_14\bin\Debug\net6.0\ref\Lab1_14.dll
+D:\.NET Lessons OOP\Lab1_14\bin\Debug\net6.0\Lab1_14.pdb
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\Lab1_14.csproj.AssemblyReference.cache
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\Lab1_14.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\Lab1_14.AssemblyInfoInputs.cache
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\Lab1_14.AssemblyInfo.cs
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\Lab1_14.csproj.CoreCompileInputs.cache
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\Lab1_14.dll
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\ref\Lab1_14.dll
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\Lab1_14.pdb
+D:\.NET Lessons OOP\Lab1_14\obj\Debug\net6.0\Lab1_14.genruntimeconfig.cache
