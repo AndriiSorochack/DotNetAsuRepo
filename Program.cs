@@ -9,7 +9,7 @@ namespace Lab1_14
          * тів головної діагоналі), сум елементів вище та нижче головної діагоналі.*/
         public static void Main(string[] args)
         {
-            Matrix matrix = new Matrix(4);
+            Matrix_LR1_14 matrix = new Matrix_LR1_14(4);
 
             matrix.InitializeMatrix();
 

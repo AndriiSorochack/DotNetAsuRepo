@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab1_14
 {
-    internal class Matrix
+    internal class Matrix_LR1_14
     { 
         private int[,] _matrix;
         private bool _isMatrixInitialized; //по дефолту false
@@ -14,7 +14,7 @@ namespace Lab1_14
         // замість private set можещ заюзати init
         public int Size { get; private set; }
 
-        public Matrix(int size)
+        public Matrix_LR1_14(int size)
         {
             Size = size;
             _matrix = new int[size, size];
@@ -164,7 +164,7 @@ namespace Lab1_14
             return sum;
         }
 
-        ~Matrix()
+        ~Matrix_LR1_14()
         {
 
         }
