@@ -1,27 +1,49 @@
-﻿
-namespace Lab1_14
+﻿using Matrix = LR_1.Matrix_LR1_14;
+using RationalNumber = LR_1.RationalNumber_LR1_19;
+
+namespace oop_asu
 {
     public class Program
     {
-        /*Створити клас – квадратна матриця.У закритій частині описати поля: розмір матриці та двовимірний масив 
-         * для зберігання її елементів (цілих чисел). Визначити конструктор та деструктор, функції 
-         * для введення та виведення значень елементів матриці, обчислення сліду матриці (суми елемен
-         * тів головної діагоналі), сум елементів вище та нижче головної діагоналі.*/
         public static void Main(string[] args)
         {
-            Matrix_LR1_14 matrix = new Matrix_LR1_14(4);
+            //#region Lab1_14
+            //Matrix matrix = new Matrix(4);
 
-            matrix.InitializeMatrix();
+            //matrix.InitializeMatrix();
 
-            matrix.PrintMatrix();
+            //matrix.PrintMatrix();
 
-            Console.WriteLine(matrix.GetTraceOfMatrix() + "\n");
+            //Console.WriteLine(matrix.GetTraceOfMatrix() + "\n");
 
-            Console.WriteLine(matrix.GetSumOfElementsAboveMainDiagonal() + "\n");
+            //Console.WriteLine(matrix.GetSumOfElementsAboveMainDiagonal() + "\n");
 
-            Console.WriteLine(matrix.GetSumOfElementsBeloveMainDiagonal() + "\n");
+            //Console.WriteLine(matrix.GetSumOfElementsBeloveMainDiagonal() + "\n");
+            //#endregion
+
+            #region Lab1_19
+            RationalNumber rationalNumber = new RationalNumber(5, 6);
+
+            var newNumb = rationalNumber.Add(new RationalNumber(-3, 2));
+
+            RationalNumber.PrintRationalNumber(newNumb);
+
+            newNumb = rationalNumber.Discard(new RationalNumber(7, 6));
+
+            RationalNumber.PrintRationalNumber(newNumb);
+
+            newNumb = newNumb.Multiply(new RationalNumber(2, 8));
+
+            RationalNumber.PrintRationalNumber(newNumb);
+
+            newNumb = newNumb.Divide(new RationalNumber(3, 2));
+
+            RationalNumber.PrintRationalNumber(newNumb);
+            #endregion
+
+
         }
 
-        
+
     }
 }

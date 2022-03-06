@@ -3,9 +3,24 @@
   "ProjectMap": {
     "ace7ca32-7574-4d15-b21b-98cda99fd7f9": {
       "ProjectGuid": "ace7ca32-7574-4d15-b21b-98cda99fd7f9",
-      "DisplayName": "Lab1_14",
+      "DisplayName": "oop_asu",
       "ColorIndex": 0
+    },
+    "3d45a525-4ed6-42e7-8bdb-07bc4a187da6": {
+      "ProjectGuid": "3d45a525-4ed6-42e7-8bdb-07bc4a187da6",
+      "DisplayName": "LR_2",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "934b9a82-2abe-4bc3-9f2c-5e86819c3f13": {
+      "ProjectGuid": "934b9a82-2abe-4bc3-9f2c-5e86819c3f13",
+      "DisplayName": "LR_1",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
